@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Effin' Birds",
+  "version": "0.1",
+
+  "description":
+    "Some friendly bird pictures from @effinbirds, helping you get through your day.",
+  "homepage_url": "https://twitter.com/effinbirds",
+
+  "applications": {
+    "gecko": {
+      "id": "effin-birds@jorgev"
+    }
+  },
+
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+
+  "permissions": [
+    "https://*.tumblr.com/*",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "button/effin-16.jpg",
+      "32": "button/effin-32.jpg",
+      "64": "button/effin-64.jpg"
+    },
+
+    "default_title": "Effin' Birds",
+    "default_popup": "popup/birds.html"
+  }
+}
