@@ -2,3 +2,10 @@
   width: 640px;
   height: 360px;
 }
+
+#input-hidden-url {
+  background-color: none;
+  border: none;
+  width: 0em;
+  padding: 0em;
+}
