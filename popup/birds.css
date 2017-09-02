@@ -9,3 +9,19 @@
   width: 0em;
   padding: 0em;
 }
+
+#footer {
+  margin-top: 1em;
+}
+
+#powered {
+  font-size: 0.5em;
+  padding: 0em;
+  margin: 0em;
+}
+
+#support {
+    font-weight: bold;
+    font-size: 0.7em;
+    text-decoration: none;
+}

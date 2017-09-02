@@ -24,9 +24,9 @@
 
   "browser_action": {
     "default_icon": {
-      "16": "button/effin-16.jpg",
-      "32": "button/effin-32.jpg",
-      "64": "button/effin-64.jpg"
+      "16": "button/effin-16.png",
+      "32": "button/effin-32.png",
+      "64": "button/effin-64.png"
     },
 
     "default_title": "Effin' Birds",

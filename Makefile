@@ -31,7 +31,7 @@ clean:
 # Makefiles.
 xpi_built := manifest.json \
 						 background.js \
-						 $(wildcard button/*.jpg)
+						 $(wildcard button/*.png)
 
 $(xpi_file): $(xpi_built)
 	@echo "Creating XPI file."

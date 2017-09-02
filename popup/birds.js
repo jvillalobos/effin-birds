@@ -32,4 +32,5 @@ window.addEventListener("load", function() {
   viewButton.addEventListener("click", function() { viewBird(); });
   copyButton.addEventListener("click", function() { copyBirdURL(); });
   randomBird();
+  randomButton.focus();
 });
