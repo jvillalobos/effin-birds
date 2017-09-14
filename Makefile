@@ -31,11 +31,14 @@ clean:
 # Makefiles.
 xpi_built := manifest.json \
 						 background.js \
+						 LICENSE \
 						 $(wildcard button/*.png) \
 						 $(wildcard icons/*.png) \
 						 $(wildcard popup/*.html) \
 						 $(wildcard popup/*.js) \
-						 $(wildcard popup/*.css)
+						 $(wildcard popup/*.css) \
+						 $(wildcard popup/*.png) \
+						 $(wildcard _locales/*/messages.json)
 
 $(xpi_file): $(xpi_built)
 	@echo "Creating XPI file."

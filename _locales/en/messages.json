@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Effin' Birds",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Look for random inspiration in the Effin' Birds Tumblr feed.",
+    "description": "Description of the extension."
+  }
+}

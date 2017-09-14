@@ -1,11 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Effin' Birds",
-  "version": "0.1",
-
-  "description":
-    "Some friendly bird pictures from @effinbirds, helping you get through your day.",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0",
   "homepage_url": "https://twitter.com/effinbirds",
+  "default_locale": "en",
 
   "applications": {
     "gecko": {

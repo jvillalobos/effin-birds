@@ -18,7 +18,7 @@ let effinBirds = new Map();
 function loadStoredPosts() {
   browser.storage.local.get(STORAGE_POSTS, results => {
     effinBirds = new Map(results[STORAGE_POSTS]);
-    console.log(`Loaded posts: ${effinBirds.size}.`);
+    //console.log(`Loaded posts: ${effinBirds.size}.`);
   });
 }
 
@@ -32,7 +32,7 @@ function updateBirds() {
     let timeDiffAll = Date.now() - lastUpdateAll;
     // check if we haven't updated the full list in a while.
     if (0 == effinBirds.size || UPDATE_ALL_RATE < timeDiffAll) {
-      console.log("Doing a full bird update.");
+      //console.log("Doing a full bird update.");
       getAllBirds();
     } else {
       browser.storage.local.get(STORAGE_LAST_UPDATE_RECENT, results => {
@@ -40,11 +40,11 @@ function updateBirds() {
         let timeDiff = Date.now() - lastUpdate;
         // check if we haven't done a partial update in a while.
         if (UPDATE_RECENT_RATE < timeDiff) {
-          console.log("Doing a recent bird update.");
+          //console.log("Doing a recent bird update.");
           //getRecentBirds();
         } else {
           // check back when an update is due.
-          console.log("Birds are up to date.");
+          //console.log("Birds are up to date.");
           window.setTimeout(function() { updateBirds(); }, timeDiff);
         }
       });
